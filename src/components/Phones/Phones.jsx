@@ -25,7 +25,7 @@ const Phones = () => {
     } , []);
     return (
         <div>
-            <h2 className="text-5xl">Phones: {phones.length}</h2>
+            <h2 className="text-5xl"> Phones: {phones.length}</h2>
             <BarChart width={1200} height={400} data={phones}>
                 <Bar dataKey="price" fill="#8884d8" />
                 <XAxis dataKey="name"></XAxis>
